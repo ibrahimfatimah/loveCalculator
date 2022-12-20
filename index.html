@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Love Calculator</title>
+</head>
+<body>
+   <section class="header">
+      <nav>
+            <h1 class="one">Calculator.net</h1>
+        <div class="nav-links">
+             <p class="two">home /</p>
+             <p class="two">about /</p>
+             <p class="two">contact /</p>
+             <p class="two">other</p>
+        </div>
+      </nav>
+      <div>
+        <h1 class="love">The Love Calculator</h1>
+        <p class="our">Here is the love calculator that
+          <br> lets you calculate love compatibity and
+          <br> your chances of a successful relationship</p>
+      </div>
+      <div class="big">
+        <h3 class="wow">Find Love % Between</h3>
+        <div class="cont">
+          <h4>YOUR NAME</h4>
+          <input id="yourname" onclick="start()" class="yourname" type="text" placeholder="Enter Your Name">
+          <h4>PARTNER'S NAME</h4>
+          <input id="partnersname" class="yourname" type="text" placeholder="Enter Partner's Name">
+          <button class="cal" id="calculate-el" onclick="calculate()">CALCULATE LOVE</button>
+          <h3 id="sum-el">%</h3>
+          <h2 id="comment-el"></h2>
+        </div>
+      </div>
+
+   </section>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

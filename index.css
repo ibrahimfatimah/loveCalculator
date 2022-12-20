@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./lovers-vector-4379410.jpg);
+    background-size: 100%;
+    
+    
+}
+nav{
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-links{
+      display: flex;
+      justify-content: space-evenly;
+}
+.one{
+    color: white;
+    font-size: 50px;
+}
+.two{
+    color: white;
+    font-size: 30px;
+}
+.love{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.our{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.big{
+    margin-left: 430px;
+    margin-top: 50px
+}
+.wow{
+    margin-left: 90px;
+    font-size: 25px;
+}
+.cont{
+    height:400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-left: 10px;
+    background-color: gray;
+}
+.yourname{
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+h4{
+    margin-left: 80px;
+}
+.cal{
+    margin-top: 50px;
+    margin-left: 115px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+h3{
+    margin-left: 170px;
+    margin-top: 15px;
+}
+
+h2{
+    margin-left: 50px;
+}
+
+@media screen and (max-width:800px) {
+    .header{
+        
+        width: 800px;
+        height: 800px;
+        background-position: cover;
+    
+    }
+    .big{
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+}
